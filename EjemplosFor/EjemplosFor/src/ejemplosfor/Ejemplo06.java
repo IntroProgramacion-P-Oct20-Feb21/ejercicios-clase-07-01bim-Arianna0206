@@ -17,13 +17,13 @@ public class Ejemplo06 {
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
         int tabla;
-        int operacion;
+        int operacion; 
         
-        System.out.println("Ingrese el rantabla a generar");
+        System.out.println("Ingrese la tabla a generar");
         tabla = entrada.nextInt();
         
-        for (int contador = 1; contador <= 10; contador++) {
-            operacion = tabla * contador;
+        for (int contador = 5; contador <= 30; contador++) {
+            operacion = tabla * contador; 
             System.out.printf("%d x %d = %d\n", tabla, contador, operacion);
         }
         

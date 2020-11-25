@@ -5,6 +5,8 @@
  */
 package ejemplosfor;
 
+import java.util.Locale;
+
 /**
  *
  * @author reroes
@@ -16,10 +18,12 @@ public class Ejemplo03 {
      */
     public static void main(String[] args) {
         
-        for (int i = 1; i <= 10; i += 2) {
-            System.out.printf("%d\n", i);
+        int sumaAcumulación=0;
+        for (int i = 10; i <=20; i += 2) { 
+            //System.out.printf("%d\n", i);
+            sumaAcumulación = sumaAcumulación + i;
         }
-        
+        System.out.printf("%d\n", sumaAcumulación);
     }
     
 }
